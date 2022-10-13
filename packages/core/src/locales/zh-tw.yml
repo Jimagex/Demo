@@ -1,0 +1,27 @@
+general:
+  name: 中文
+  paren: '（{0}）'
+  quote: '「{0}」'
+  comma: ，
+  and: 和
+  or: 或
+  day: 天
+  hour: 小時
+  minute: 分鐘
+  second: 秒
+
+internal:
+  low-authority: 權限不足。
+  insufficient-arguments: 參數個數不足，輸入「help」檢視用法。
+  redunant-arguments: 參數個數冗餘，輸入「help」檢視用法。
+  invalid-argument: 參數 {0} 無效，{1}
+  unknown-option: 存在未知選項 {0}，輸入「help」檢視用法。
+  invalid-option: 選項 {0} 無效，{1}
+  check-syntax: 輸入「help」檢視用法。
+  invalid-number: 請輸入有效數字。
+  invalid-integer: 請輸入有效整數。
+  invalid-posint: 請輸入有效正整數。
+  invalid-natural: 請輸入有效非負整數。
+  invalid-date: 請輸入有效時間。
+  invalid-user: 請指定有效用戶。
+  invalid-channel: 請指定有效頻道。

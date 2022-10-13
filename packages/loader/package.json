@@ -1,0 +1,53 @@
+{
+  "name": "@koishijs/loader",
+  "description": "Config Loader for Koishi",
+  "version": "2.2.1",
+  "main": "lib/node.js",
+  "typings": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "node": "./lib/node.js",
+      "browser": "./lib/browser.mjs"
+    },
+    "./shared": {
+      "require": "./lib/shared.js",
+      "import": "./lib/shared.mjs"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib"
+  ],
+  "author": "Shigma <shigma10826@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/koishi.git",
+    "directory": "packages/loader"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/koishi/issues"
+  },
+  "homepage": "https://koishi.js.org/api/utils.html",
+  "keywords": [
+    "bot",
+    "chatbot",
+    "koishi",
+    "loader",
+    "config"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.9.5"
+  },
+  "devDependencies": {
+    "@koishijs/registry": "^4.1.0",
+    "@types/js-yaml": "^4.0.5",
+    "koishi": "^4.9.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "js-yaml": "^4.1.0",
+    "ns-require": "^1.1.4"
+  }
+}

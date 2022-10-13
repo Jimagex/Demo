@@ -1,0 +1,49 @@
+{
+  "name": "create-koishi",
+  "description": "Setup a Koishi application",
+  "version": "5.2.6",
+  "engines": {
+    "node": "^12 || >=14"
+  },
+  "files": [
+    "lib"
+  ],
+  "bin": "lib/index.js",
+  "author": "Shigma <shigma10826@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/koishi.git",
+    "directory": "packages/create"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/koishi/issues"
+  },
+  "homepage": "https://koishi.js.org",
+  "keywords": [
+    "bot",
+    "chatbot",
+    "koishi",
+    "discord",
+    "telegram",
+    "onebot",
+    "create",
+    "scaffold",
+    "template",
+    "generator",
+    "boilerplate"
+  ],
+  "devDependencies": {
+    "@types/tar": "^6.1.1",
+    "@types/which-pm-runs": "^1.0.0",
+    "@types/yargs-parser": "^21.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "kleur": "^4.1.5",
+    "prompts": "^2.4.2",
+    "tar": "^6.1.11",
+    "which-pm-runs": "^1.1.0",
+    "yargs-parser": "^21.0.1"
+  }
+}

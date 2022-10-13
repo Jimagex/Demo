@@ -1,0 +1,50 @@
+{
+  "name": "@koishijs/plugin-database-sqlite",
+  "description": "SQLite support for Koishi",
+  "version": "1.5.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "author": "thezzisu <2100012732@stu.pku.edu.cn>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/koishi.git",
+    "directory": "plugins/database/sqlite"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/koishi/issues"
+  },
+  "homepage": "https://koishi.js.org/plugins/database/sqlite.html",
+  "keywords": [
+    "bot",
+    "chatbot",
+    "koishi",
+    "plugin",
+    "database",
+    "sqlite"
+  ],
+  "koishi": {
+    "category": "storage",
+    "description": {
+      "en": "SQLite support",
+      "zh": "SQLite 支持"
+    },
+    "service": {
+      "implements": [
+        "database"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "koishi": "^4.9.5"
+  },
+  "dependencies": {
+    "@minatojs/driver-sqlite": "^1.3.0"
+  }
+}

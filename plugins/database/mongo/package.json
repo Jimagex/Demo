@@ -1,0 +1,50 @@
+{
+  "name": "@koishijs/plugin-database-mongo",
+  "description": "MongoDB support for Koishi",
+  "version": "3.5.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "author": "undefined <masnn0@outlook.com>",
+  "maintainers": [
+    "Shigma <shigma10826@gmail.com>",
+    "undefined <masnn0@outlook.com>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/koishi.git",
+    "directory": "plugins/database/mongo"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/koishi/issues"
+  },
+  "homepage": "https://koishi.js.org/plugins/database/mongo.html",
+  "keywords": [
+    "bot",
+    "chatbot",
+    "koishi",
+    "database",
+    "mongo"
+  ],
+  "koishi": {
+    "category": "storage",
+    "description": {
+      "en": "MongoDB support",
+      "zh": "MongoDB 支持"
+    },
+    "service": {
+      "implements": [
+        "database"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "koishi": "^4.9.5"
+  },
+  "dependencies": {
+    "@minatojs/driver-mongo": "^1.3.0"
+  }
+}
